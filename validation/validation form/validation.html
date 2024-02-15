@@ -1,0 +1,111 @@
+<html>
+<head>
+    <title>Besant Enquiry form</title>
+    <link rel="stylesheet" href="validation.css">
+</head>
+
+<body>
+
+    <div class="size">
+        <div class="regpage">
+        <center><h2>Besant Technologies</h2></center> 
+            <center><h3>ENQUIRY FORM</h3></center>
+
+                <form action="besant" method="get" >
+
+                <label>User Name</label><span id="nameMsg"></span>
+                <input type="text" name="name" id="fname" placeholder=" Enter Your name" >
+                
+                
+
+                <label>Mobile No</label><span id="mobileMsg"></span>
+                <input type="number" name="number" id="mobile" placeholder="Enter Your mobile  number" >
+        
+                <label>Email</label><span id="emailMsg"></span>
+                <input type="mail" name="Email" id="email" placeholder="Enter Your Email id" >
+
+                
+                <label> Address </label><span id="addressMsg"></span><textarea name="address" id="address" placeholder="Enter your Address"
+                    style="height:200px" ></textarea>
+
+            <label>Course Interested</label><span id="courseMsg"></span>
+                    <input type="text" name="Course" id="course" placeholder="course Details">
+
+            <br><br>                    
+            <label>Batch Preferred</label>
+                <input type="radio" name="batch" id="Batch" value="0">Weeekdays
+                <input type="radio" name="batch" id="Batch" value="1">Weekend
+                <br><br>
+
+                <br>
+
+                <label> How You Came To Knew us : </label><span id="crs"></span>
+                <br><br>
+                <input type="checkbox" id="about" name="ads" value="Google search" />Google search
+                <input type="checkbox" id="about" name="ads" value="website" />website
+                <input type="checkbox" id="about" name="ads" value="Ads" />Ads
+                <input type="checkbox" id="about" name="ads" value="Reference" />Reference
+
+                <br><br><br>
+
+                <label> Passed Out  Year:
+                <select style="border-radius:4px;" id="dropDown">
+                            <option value="select">---select year---</option>
+                            <option> 2012 </option>
+                            <option> 2013 </option>
+                            <option> 2014 </option>
+                            <option> 2015 </option>
+                            <option> 2016 </option>
+                            <option> 2017 </option>
+                            <option> 2018 </option>
+                            <option> 2019 </option> 
+                            <option> 2020 </option>
+                            <option> 2021 </option> 
+                            <option> 2021 </option> 
+                            <option> 2022 </option>
+                            <option> 2023 </option>
+                        </select>
+                </label>
+                <label> Degree</label>
+                <select style="border-radius:4px;" id="dropDown1">
+                <option value="select1">--select the degree--</option>
+                <option>Bca</option>
+                <option>B.Sc</option>
+                <option> BBA</option>
+                <option>B.com</option>
+                <option>Mca</option>
+                <option>BA</option>
+                <option>B.E</option>
+                <option>B.Tech </option>
+                <option> Cs-Engineering</option>
+                <option>Aeronautical Enginerring</option>
+                <option> civil Enginerring</option>
+                <option> EEE</option>
+                <option>Others</option>
+                </select>
+                <br><br>
+
+                <label>JOB</label>
+                <input type="radio" name="job" value="0" id="job">Need
+                <input type="radio" name="job" value="1" id="job">NoNeed
+                <br><br>
+
+            <br><br>
+            <label>Preview Experinces & Domain </label><span id="experienceMsg"></span>
+            <input type="text" name=" EXPERINCE"  id="experience" >
+
+
+            <label> Comments:</label><span id="commentsMsg"></span><textarea name="Comments" id="comments" placeholder="Let us known what you need help with"
+                style="height:100px"></textarea>
+            
+            
+            <input type="button" value="Register" onclick="validateForm()">
+
+            </form>
+        </div>
+    </div>
+
+<script src="validation.js"></script>
+</body>
+
+</html>

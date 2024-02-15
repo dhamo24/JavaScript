@@ -1,0 +1,49 @@
+.size {
+    font-style: inherit;
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+input[type=text],input[type=number],input[type=mail],
+textarea,select {
+    width: 100%;
+    background-color: rgb(224, 245, 254);
+    opacity:1;
+    padding: 12px;
+    border: 1px solid rgb(104, 100, 100);
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+
+}
+
+
+input[type=button]{
+    background-color: rgb(151, 185, 191);
+    color: rgb(41, 40, 40);
+    padding : 7px 18px;
+    border-radius: 7px;
+    cursor: pointer;
+    text-align:center;
+    margin-left: 44%;
+
+}
+
+input[type=button]:hover {
+    background-color: hwb(177 56% 16%);
+}
+
+.regpage {
+    border-radius:2px;
+    background-color: rgb(177, 221, 202);
+    padding: 20px;
+}
+
+.address {
+    text-align: center;
+}
+span {
+margin-left: 20px;
+color: rgb(201, 5, 5);
+}
